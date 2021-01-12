@@ -1,11 +1,15 @@
 # https://hub.docker.com/_/nextcloud/
-# plik nginx.conf:
+#
+# --- plik nginx.conf:
 # https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/fpm/web/nginx.conf
 
-# fix do caldav:
+# --- fix do caldav:
 # https://github.com/nextcloud/docker/issues/927
 
-# problem z logowaniem (trzeba odswiezyc przegladarke)
+# --- cron, smb, imap 
+# https://github.com/nextcloud/docker/tree/master/.examples/dockerfiles
+
+# --- problem z logowaniem (trzeba odswiezyc przegladarke)
 #
 # https://help.nextcloud.com/t/30-sec-to-wait-before-login-since-update-10-0/2599/10
 # https://help.nextcloud.com/t/nextcloud-login-issue-google-chrome/65958/3
